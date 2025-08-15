@@ -1,6 +1,6 @@
 ﻿# Cadastro de Clientes — Arquitetura e Decisões de Design
 
-## 📌 Visão Geral
+## Visão Geral
 O sistema **Cadastro de Clientes** foi projetado para atender novo requisito, implementando um CRUD completo de **Clientes** e **Logradouros**, com:
 - Armazenamento de **logotipo** no banco de dados (`VARBINARY(MAX)`)
 - Autenticação e autorização via **JWT**
@@ -15,7 +15,7 @@ A solução é composta por:
 
 ---
 
-## 🧩 C4 Model
+## C4 Model
 Este projeto foi documentado usando o **C4 Model**, para garantir clareza em diferentes níveis de detalhe.
 
 - **Nível 1 — Context**  
@@ -29,7 +29,7 @@ Este projeto foi documentado usando o **C4 Model**, para garantir clareza em dif
 
 ---
 
-## 📊 Diagramas
+## Diagramas
 
 ### **Nível 1 — Context**
 ![Context Diagram](docs/cadastro-clientes-Context.drawio.svg)
@@ -53,7 +53,7 @@ Este projeto foi documentado usando o **C4 Model**, para garantir clareza em dif
 
 ---
 
-## ⚙️ Decisões de Design
+## Decisões de Design
 
 | Requisito | Solução |
 |-----------|---------|
@@ -68,7 +68,7 @@ Este projeto foi documentado usando o **C4 Model**, para garantir clareza em dif
 
 ---
 
-## 🏗️ Arquitetura (Clean Architecture + DDD)
+## Arquitetura (Clean Architecture + DDD)
 
 - **Presentation Layer**:  
   - *MVC*: Controllers, Views.  
@@ -82,7 +82,7 @@ Este projeto foi documentado usando o **C4 Model**, para garantir clareza em dif
 
 ---
 
-## 📈 Como essa arquitetura atende aos requisitos
+## Como essa arquitetura atende aos requisitos
 
 - **Escalabilidade**: API stateless + cache distribuído (Redis) permite balanceamento horizontal.
 - **Segurança**: JWT, roles e policies controlam acesso.
@@ -92,7 +92,7 @@ Este projeto foi documentado usando o **C4 Model**, para garantir clareza em dif
 
 ---
 
-## ▶️ Como Executar (POC)
+## Como Executar (POC)
 
 1. **Pré-requisitos**  
    - .NET 8 SDK  
