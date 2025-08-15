@@ -41,7 +41,7 @@ Este projeto foi documentado usando o **C4 Model**, para garantir clareza em dif
 ![Components API Diagram](docs/cadastro-clientes-Componentes.drawio.svg)
 
 ### **Nível 3 — Frontend MVC**
-![Frontend MVC Diagram](docs/cadastro-clientes-Frontend MVC.drawio.svg)
+![Frontend MVC Diagram](docs/cadastro-clientes-Frontend-MVC.drawio.svg)
 
 ### **Sequência — Criar Cliente**
 ![Sequence Diagram](docs/cadastro-clientes-Sequencia.drawio.svg)
